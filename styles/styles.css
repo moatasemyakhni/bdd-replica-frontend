@@ -55,14 +55,20 @@
 .hamburger {
     display: none;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
+    align-self: center;
 }
 
 .hamburger .ham {
-    padding: 2px;
+    padding: 1px;
     background-color: white;
     border-radius: 15px;
     width: 22px;
+    align-self: center;
+}
+
+.hamburger .ham1 {
+    width: 10px;
 }
 /* end navigation bar */
 
@@ -96,4 +102,18 @@
 
 img {
     height: 100%;
+}
+
+/* media query*/
+
+@media only screen and (max-width: 900px) {
+    /* navbar */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-bar .links-list {
+        display: none;
+    }
+    /* end navbar */
 }
