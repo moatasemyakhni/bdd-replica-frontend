@@ -94,6 +94,13 @@
 }
 /* end header */
 
+/* start main */
+.foundations-section {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/* end main */
+
 /* utilities */
 .btn {
     padding: 12% 18px;
