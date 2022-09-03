@@ -96,35 +96,58 @@
 
 /* start main */
 .foundations-section {
-    padding: 0 10px;
+    padding: 0 10px 30px;
     margin: 0 auto;
     background-color: #F5F5F5;
 }
 
-.foundations-title {
+.foundation-title {
     text-align: center;
+    padding: 30px 0;
+    font-weight: 900;
+    font-size: 25px;
 }
 
 .foundation-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
 }
 
 .foundation-items > div {
-    padding: 10px;
-    width: 100px;
+    padding: 20px;
+    min-width: 150px;
     background-color: white;
     flex: 1;
+    box-shadow: 0px 0px 10px 10px #f0f0f0;
+    border-radius: 5px;
 }
 
 .foundation-img-box {
-    height: 30px;
+    height: 60px;
 }
 
 .foundation-img-box img {
     display: block;
     margin: 0 auto;
+}
+
+.item-name {
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 0 10px 0;
+}
+
+.item-detail {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3a3a3a;
+    line-height: 20px;
+    padding-bottom: 10px;
+
 }
 /* end main */
 
