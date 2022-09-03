@@ -95,6 +95,8 @@
 /* end header */
 
 /* start main */
+
+/* start foundation section */
 .foundations-section {
     padding: 0 10px 30px;
     margin: 0 auto;
@@ -123,6 +125,26 @@
     border-radius: 5px;
 }
 
+.item1:hover {
+    background-color: #dbe8f0;
+}
+
+.item2:hover {
+    background-color: #dcecec;
+}
+
+.item3:hover {
+    background-color: #dce9e0;
+}
+
+.item4:hover {
+    background-color: #ecefdc;
+}
+
+.item5:hover {
+    background-color: #f7e2e7;
+}
+
 .foundation-img-box {
     height: 60px;
 }
@@ -149,6 +171,9 @@
     padding-bottom: 10px;
 
 }
+
+/* end section foundation */
+
 /* end main */
 
 /* utilities */
