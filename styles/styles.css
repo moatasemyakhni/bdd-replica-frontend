@@ -57,6 +57,7 @@
     flex-direction: column;
     gap: 4px;
     align-self: center;
+    cursor: pointer;
 }
 
 .hamburger .ham {
@@ -65,11 +66,23 @@
     border-radius: 15px;
     width: 22px;
     align-self: center;
+    transition: all 500ms;
+}
+
+.hamburger:hover .ham1, .hamburger:hover .ham3 {
+    width: 22px;
 }
 
 .hamburger .ham1 {
-    width: 10px;
+    width: 15px;
+    align-self: flex-start;
 }
+
+.hamburger .ham3 {
+    width: 15px;
+    align-self: flex-end;
+}
+
 /* end navigation bar */
 
 .hero-title {
