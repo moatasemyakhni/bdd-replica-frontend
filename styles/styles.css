@@ -12,6 +12,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 /* start navigation bar */
@@ -40,13 +43,13 @@
     font-size: 10px;
     font-weight: 700;
     margin: 2px 2px;
-    padding: 0 12px;
+    padding: 0 8px;
 }
 
 .nav-bar .links-list li a {
     color: white;
     opacity: .98;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .hamburger {
@@ -63,16 +66,21 @@
 }
 /* end navigation bar */
 
-/* start hero */
-
-/* end hero */
+.hero-title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    width: 80vw;
+}
 /* end header */
 
 /* utilities */
 .btn {
-    padding: 14px 20px;
+    padding: 12% 18px;
     border: none;
     border-radius: 30px;
+    letter-spacing: 2px;
 }
 
 .btn-blue {
