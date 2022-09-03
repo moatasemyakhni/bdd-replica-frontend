@@ -98,6 +98,33 @@
 .foundations-section {
     padding: 0 10px;
     margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.foundations-title {
+    text-align: center;
+}
+
+.foundation-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.foundation-items > div {
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    flex: 1;
+}
+
+.foundation-img-box {
+    height: 30px;
+}
+
+.foundation-img-box img {
+    display: block;
+    margin: 0 auto;
 }
 /* end main */
 
