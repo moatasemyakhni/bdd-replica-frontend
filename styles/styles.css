@@ -3,6 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* start header */
+.nav-bar {
+    
+}
+
+.nav-bar .nav-img-box {
+    padding: 8px;
+    height: 100px;
+}
+/* end header */
 
 /* utilities */
 .btn {
@@ -17,7 +27,7 @@
 }
 
 .container {
-    padding: 0 10vw;
+    padding: 0 4vw;
     width: 100%;
 }
 
