@@ -191,21 +191,17 @@
     font-weight: 900;
     font-size: 22;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .vision-wrapper {
-    width: 80%;
+    width: 60%;
     height: 100%;
     margin: 0 auto;
     background: #CCC
 }
+
 .vision-vid-box {
     position: relative;
-    /* overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; */
-    
 }
 
 .vision-vid-box .ratio {
