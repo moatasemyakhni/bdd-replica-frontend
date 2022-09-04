@@ -314,6 +314,49 @@
 }
 
 /* end bdd join section */
+
+/* start hub-section */
+.hub-section {
+    background-image: url("../images/bdd/parallax-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hub-section > .hub-title {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px;
+}
+
+.hub-section > .hub-img-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.hub-img-box > div {
+    flex: 1;
+}
+
+.hub-img-box .hub-img {
+    height: 60px;
+}
+
+.hub-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hub-img-box > div p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+/* end hub-section */
 /* end main */
 
 /* utilities */
@@ -349,6 +392,12 @@
 
 img {
     height: 100%;
+}
+
+.news-container {
+    width: 90vw;
+    display: block;
+    margin: 0 auto;
 }
 
 /* media query*/
