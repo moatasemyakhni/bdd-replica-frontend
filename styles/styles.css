@@ -409,14 +409,52 @@
     padding: 30px 0;
 }
 
-.program-section .program-container {
+.program-section > .program-container {
     background-color: transparent;
     box-shadow: none;
     display: flex;
 }
 
+.program-container > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.program-container .program-other-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
 .program-img-box {
-    height: 30px;
+    height: 80px;
+}
+
+.pro-img-other img {
+    display: block;
+    margin: 0 auto;
+}
+
+.program-main-txt {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    width: 80%;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.program-other-txt {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.btn-prog {
+    display: block;
+    margin: 0 auto;
 }
 /* end program section */
 /* end main */
@@ -506,4 +544,11 @@ img {
         height: 40px;
     }
     /* end join-bdd section */
+
+    /* start program section */
+    .program-section > .program-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* end program section */
 }
