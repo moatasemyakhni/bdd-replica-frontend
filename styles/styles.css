@@ -363,4 +363,35 @@ img {
         display: none;
     }
     /* end navbar */
+
+    /* start join-bdd section */
+    .bdd-join-section > .info-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    
+    .join-img-box {
+        display: none;
+    }
+
+    .join-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+        padding-right: 0;
+        column-gap: 15px;
+        row-gap: 8px;
+    }
+
+    .join-items > div {
+        width: 45vw;
+        margin: 0 auto;
+    }
+
+    .icon {
+        display: block;
+        height: 40px;
+    }
+    /* end join-bdd section */
 }
