@@ -540,6 +540,30 @@
     color: white;
     font-size: 12px;
 }
+
+.col4 form {
+    display: flex;
+}
+
+.col4 form input {
+    margin-top: 15px;
+    height: 20px;
+    align-self: center;
+    background-color: transparent;
+    border: none;
+}
+
+.col4 div p {
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.footer-images {
+    display: flex;
+    gap: 10px;
+}
+
 /* end footer */
 /* utilities */
 .btn {
