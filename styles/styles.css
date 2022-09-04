@@ -400,6 +400,25 @@
     margin: 0 auto;
 }
 /* end trending section */
+
+/* start program section */
+.program-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bdd/parallax-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.program-section .program-container {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+}
+
+.program-img-box {
+    height: 30px;
+}
+/* end program section */
 /* end main */
 
 /* utilities */
