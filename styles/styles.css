@@ -534,6 +534,11 @@
 
 .footer-item {
     padding: 5px 0;
+    transition: all ease-in-out 500ms;
+}
+
+.footer-item:hover {
+    border-bottom: 1px solid #0078BE;
 }
 
 .footer-item a {
@@ -562,6 +567,16 @@
 .footer-images {
     display: flex;
     gap: 10px;
+}
+
+.social-media h6 {
+    
+    color: #a5a5a5;
+}
+
+.social-media h6 a {
+    
+    color: #0078BE;
 }
 
 /* end footer */
