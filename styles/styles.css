@@ -359,6 +359,11 @@
 /* end hub-section */
 
 /* start trending section */
+.news-container {
+    box-shadow: 0px 0px 10px 1px #CCC;
+    background-color: #F5F5F5;
+}
+
 .trending-section {
     width: 100%;
     padding: 30px 0;
@@ -376,7 +381,20 @@
     background-size: 100%;
 }
 
-.trending-img-box img {
+.trending-text {
+    padding: 10px 20px 40px;
+    font-weight: 800;
+}
+
+.trending-date {
+    color: #a5a5a5;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.trending-btn {
+    display: block;
+    margin: 0 auto;
 }
 /* end trending section */
 /* end main */
