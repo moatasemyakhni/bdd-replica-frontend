@@ -503,6 +503,19 @@
 .footer-section {
     box-shadow: none;
     background-color: #212121;
+    padding: 30px 0;
+    
+}
+
+.footer-container {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.footer-section .social-media {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
 }
 /* end footer */
 /* utilities */
