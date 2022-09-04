@@ -499,6 +499,12 @@
 /* end comment section */
 /* end main */
 
+/* start footer */
+.footer-section {
+    box-shadow: none;
+    background-color: #212121;
+}
+/* end footer */
 /* utilities */
 .btn {
     padding: 12% 18px;
