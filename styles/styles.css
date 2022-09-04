@@ -512,10 +512,33 @@
     background-color: transparent;
 }
 
+.footer-container .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info div h6 {
+    color: #3a3a3a;
+}
+
+.info div h5 {
+    color: #a5a5a5;
+}
+
 .footer-section .social-media {
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
+}
+
+.footer-item {
+    padding: 5px 0;
+}
+
+.footer-item a {
+    color: white;
+    font-size: 12px;
 }
 /* end footer */
 /* utilities */
