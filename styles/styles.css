@@ -251,11 +251,12 @@
     background-color: #F5F5F5;
     border-radius: 5px;
     flex: 1;
+    transition: all 500ms;
 }
 
 .join-items-title {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     padding-bottom: 20px
 }
@@ -269,11 +270,16 @@
     display: flex; /*between text and triangle arrow*/
     gap: 2px;
     font-size: 12px;
-    color: #a8a8a8;
-    font-weight: 600;
+    color: #3a3a3a;
+    font-weight: 500;
     line-height: 17px;
     padding-bottom: 10px;
     /* text-align: justify; */
+}
+
+.join-items > div:hover {
+    box-shadow: 0px 0px 10px 2px #a5a5a5;
+    margin-top: -15px;
 }
 
 .join-img-box {
@@ -301,9 +307,10 @@
     border: none;
     border-radius: 30px;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 100px;
     text-transform: capitalize;
     align-self: center;
+    font-weight: 700;
 }
 
 .btn-blue {
