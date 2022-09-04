@@ -218,11 +218,48 @@
     height: 100%;
 }
 /* end section vision */
+
+/* start bdd join section */
+.bdd-join-section > div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.join-title {
+    text-align: center;
+    font-weight: 800;
+    padding: 15px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.join-items {
+    display: flex;
+}
+
+.join-items > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-img-box {
+    width: 100%;
+    height: 100px;
+}
+/* end bdd join section */
 /* end main */
 
 /* utilities */
 .btn {
     padding: 12% 18px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.btn-learn {
+    padding: 10px 18px;
     border: none;
     border-radius: 30px;
     letter-spacing: 2px;
