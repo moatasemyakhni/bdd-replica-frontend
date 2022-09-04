@@ -583,12 +583,14 @@
     text-transform: capitalize;
     align-self: center;
     font-weight: 700;
+
 }
 
 .btn-blue {
     background-color: #0078BE;
     color: white;
     font-size: 10px;
+    cursor: pointer;
 }
 
 .container {
