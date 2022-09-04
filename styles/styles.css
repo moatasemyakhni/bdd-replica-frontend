@@ -244,8 +244,13 @@
 }
 
 .join-img-box {
-    width: 100%;
-    height: 100px;
+    display: block;
+    height: 33.33%;
+}
+
+.join-img-box {
+    max-width: 100%;
+    height: auto;
 }
 /* end bdd join section */
 /* end main */
