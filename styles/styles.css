@@ -357,6 +357,28 @@
     padding-top: 20px;
 }
 /* end hub-section */
+
+/* start trending section */
+.trending-section {
+    width: 100%;
+    padding: 30px 0;
+}
+.trending-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.trending-img-box {
+    height: 300px;
+    background-image: url(../images/bdd/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.trending-img-box img {
+}
+/* end trending section */
 /* end main */
 
 /* utilities */
@@ -395,10 +417,11 @@ img {
 }
 
 .news-container {
-    width: 90vw;
+    width: 80vw;
     display: block;
     margin: 0 auto;
 }
+
 
 /* media query*/
 
