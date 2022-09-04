@@ -591,4 +591,12 @@ img {
         gap: 10px;
     }
     /* end program section */
+
+    /* start comment section */
+    .comment-body {
+    
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* end comment section */
 }
